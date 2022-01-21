@@ -3,7 +3,7 @@ function* range(start, end) {
     yield h;
     }
     }
-    for (h of range(1, 1000)) {
+    for (h of range(1, 999)) {
          if ((h%3!=0) && (h%5==0))
     console.log(h);
     }
